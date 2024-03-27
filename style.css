@@ -1,0 +1,20 @@
+.box {
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    display: flex;
+    gap:8px;
+    justify-content: flex-end;
+}
+
+.table-user {
+    background-color: rgb(244, 244, 100);
+    border : 2px dashed black;
+    border-collapse: collapse;
+    width: 500px;
+}
+.table-user td , .table-user th {
+    border: 2px solid rgb(68, 0, 255);
+    padding:8px;
+    text-align:center;
+}
